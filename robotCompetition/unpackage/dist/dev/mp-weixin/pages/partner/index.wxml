@@ -1,0 +1,1 @@
+<block wx:if="{{pageLoad}}"><view class="tj-robot data-v-f7df58bc"><web-view class="pageStyle data-v-f7df58bc" src="{{url}}"></web-view></view></block>

@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><navigator url="/pages/partner/intro">前往大赛简介页面</navigator><navigator url="/pages/partner/organization">前往组织机构页面</navigator><navigator url="/pages/partner/competitionsIntro">前往赛事介绍页面</navigator><navigator url="/pages/partner/competitionsPlan">前往赛事安排页面</navigator></view></view>

@@ -1,0 +1,99 @@
+<!--
+ * @Author: leslie
+ * @Date: 2021-03-25 18:33:34
+ * @LastEditors: leslie
+ * @LastEditTime: 2021-04-21 17:24:47
+ * @Description: 合作伙伴-列表
+-->
+<template>
+	<view v-if="pageLoad" class="tj-robot">
+		<view class="tj-robot__body">
+			<view class="tj-robot-cont">
+				<view class="tj-robot-cont-hd">
+					<view class="tj-robot__header"><view class="tj-robot-menu__title">大赛简介</view></view>
+				</view>
+				<view class="tj-robot-cont-bd">
+					<view class="tj-robot__markdown">
+						<view class="tj-robot-text-level-two">
+							2021RoboCup机器人世界杯中国赛暨亚太机器人世界杯天津国际邀请赛（简称“RCAP天津国际邀请赛”）作为天津市第五届世界智能大会的重要组成部分，于2021年5月19日-22日在天津空港体育中心举办。2021
+							RCAP亚太机器人世界杯天津国际邀请赛首次联手RoboCup机器人世界杯中国赛，将在津门为全国观众呈现一场盛大的国际机器人竞技盛宴。同时，本次大赛采用的“线上线下+国内国外”同步开展的联动赛事模式，也将为本届赛事增加新的亮点。
+
+							<image :src="require('./img/dUhDawZyS1yMwUDuSgrMqw.png')" class="tj-robot-text-level-two-img"></image>
+							<text class="tj-robot-img-detail">RoboCup 标准平台组比赛</text>
+							<image :src="require('./img/dUhDawZyS1yMwUDuSgrMqw.png')" class="tj-robot-text-level-two-img"></image>
+							<text class="tj-robot-img-detail">RoboCup 中型组比赛</text>
+							<image :src="require('./img/dUhDawZyS1yMwUDuSgrMqw.png')" class="tj-robot-text-level-two-img"></image>
+							<text class="tj-robot-img-detail">RCAP CoSpace智能驾驶比赛</text>
+							<image :src="require('./img/dUhDawZyS1yMwUDuSgrMqw.png')" class="tj-robot-text-level-two-img"></image>
+							<text class="tj-robot-img-detail">RCAP CoSpace 智能搜救比赛</text>
+						</view>
+						<view class="tj-robot-case-title__content">
+							<view class="case-title-title">RoboCup机器人世界杯赛</view>
+							<view class="cases-title-title__border"></view>
+						</view>
+						<view class="tj-robot-text-level-two">
+							<view class="tj-robot-text-level-two-p">
+								机器人世界杯赛，是当前国际上级别最高、规模最大、影响最广泛的机器人赛事，由RoboCup国际联合会主办。RoboCup主要目的是通过提供一个标准的易于评价的比赛平台，促进MAS(Multi-Agent
+								System）和DAI(Distributed Artificial
+								Intelligence）的研究与发展，其最终目标是经过五十年左右的研究，使机器人足球队能战胜人类足球冠军队。机器人世界杯赛融合丰富的学术研讨会议，工业与机器人展览会和世界顶级的机器人竞赛为一体，在过去20年中，引领了人工智能、机器人科学与机器人教育的发展。-22日在天津空港体育中心举办。2021
+								本次大赛共设有四大赛项包含12个分赛项，分别为RoboCup足球机器人比赛（类人组、中型组、仿真2D组、仿真3D组、小型组、标准平台组），RoboCup救援组比赛（救援机器人组、救援仿真组），RoboCup家庭组（开放平台组、标准平台组）比赛以及RCAP+国内国外”同步开展的联动赛事模式，也将为本届赛事增加新的亮点。
+							</view>
+							<view class="tj-robot-text-level-two-p">
+								自1997年首届机器人比赛在日本名古屋成功举办以来，分别在法国、瑞典、澳大利亚、美国、德国、韩国、意大利、葡萄牙、中国、奥地利、新加坡、荷兰、巴西、加拿大等十余个国家和地区进行了比赛。中国分别于2008年在江苏苏州举办了第12届和2015年在安徽合肥举办了第19届机器人世界杯赛。目前已有来自全球50多个国家的队员参加机器人世界杯，参赛者包括世界众多知名学府和科研机构与教育机构。-22日在天津空港体育中心举办。2021
+								本次大赛共设有四大赛项包含12个分赛项，分别为RoboCup足球机器人比赛（类人组、中型组、仿真2D组、仿真3D组、小型组、标准平台组），RoboCup救援组比赛（救援机器人组、救援仿真组），RoboCup家庭组（开放平台组、标准平台组）比赛以及RCAP+国内国外”同步开展的联动赛事模式，也将为本届赛事增加新的亮点。
+							</view>
+						</view>
+						<view class="tj-robot-case-title__content">
+							<view class="case-title-title">RoboCup机器人世界杯中国赛</view>
+							<view class="cases-title-title__border"></view>
+						</view>
+						<view class="tj-robot-text-level-two">
+							<view class="tj-robot-text-level-two-p">
+								RoboCup机器人世界杯中国赛（RoboCup China
+								Open）是RoboCup机器人世界杯的正式地区性赛事，1999年中国自动化学会举办了首届RoboCup机器人世界杯中国赛，并于2006年发展为RoboCup
+								国际联合会认定的最有影响力的五大国际区域赛之一。同年开始，该项赛事每年与“中国机器人大赛”合并举办，冠名为“中国机器人大赛暨RoboCup机器人世界杯中国赛”，赛制为每年举办一次。作为我国面向大学生、研究生开展，影响力最大、综合技术水平最高的机器人学科竞赛之一，致力于推进机器人相关学科，特别是自动化、机器人、人工智能等学科的发展。大赛由中国自动化学会主办，由在RoboCup国际联合会任职的中国高校教授、学者具体组织，大赛顾问由十多位自动化领域的知名院士、专家组成，借助于中国自动化学会在自动化、机器人与人工智能领域的强大影响力和专业实力，大赛的技术水平和学术水平得到了高校广泛认可。赛制为每年举办一次，至今已成功举办22届。
+							</view>
+						</view>
+						<view class="tj-robot-case-title__content">
+							<view class="case-title-title">亚太机器人世界杯（RoboCup Asia-Pacific，简称RCAP）</view>
+							<view class="cases-title-title__border"></view>
+						</view>
+						<view class="tj-robot-text-level-two">
+							<view class="tj-robot-text-level-two-p">
+								亚太机器人世界杯（RCAP）是综合机器人与人工智能，并覆盖教育、研究与工业等方向的国际性学术组织，亦是亚太地区影响力最大，学术水平最高，规模最大的机器人与人工智能竞赛与学术活动。每年，在亚太各地区将举办多项不同等级的RCAP赛事，而年度总决赛则定在每年的秋冬季举办。亚太机器人世界杯（RoboCup
+								Asia-Pacific，简称RCAP）理事会是经由机器人世界杯（RoboCup）国际理事会授权，负责亚太地区机器人世界杯赛事组织与协调的最高机构。亚太地区涵盖亚洲及大洋洲的50多个国家。亚太机器人世界杯理事会的创会国包括中国、新加坡、澳大利亚、日本、泰国、伊朗以及俄罗斯。亚太机器人世界杯理事会总部设在新加坡，理事会创会主席是来自新加坡的周长久教授。
+							</view>
+						</view>
+						<view class="tj-robot-text-level-two">
+							<view class="tj-robot-text-level-two-p">
+								亚太机器人世界杯国际联合会旨在与RCAP会员国及全球合作伙伴密切协作，打造连接全球，特别是“一带一路”国家与地区的机器人与人工智能创新创业生态系统。
+							</view>
+						</view>
+					</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+export default {
+	name: 'IndexPartner',
+
+	data() {
+		return {
+			pageLoad: false
+		};
+	},
+
+	onLoad() {
+		setTimeout(() => {
+			this.pageLoad = true;
+		}, 30);
+	}
+};
+</script>
+
+<style lang="scss" scoped>
+@import './intro.scss';
+</style>
